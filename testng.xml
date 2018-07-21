@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hayoumethod" >
+<parameter name="Browser" value="CH"></parameter>
+<parameter name="URL" value="http://www.hayoumethod.com/"></parameter>
+<parameter name="TestDataPath1" value="TestData/login/Login.xlsx"></parameter>
+<parameter name="TDSheetName1" value="Login_Page"></parameter>
+<parameter name="rownum" value="1"></parameter>
+<test name="Hayoumethod_login" >
+<classes>
+
+<class name="com.hayoumethod.framework.tests.account.LoginPageTest"></class>
+
+</classes>
+</test>	   
+</suite>

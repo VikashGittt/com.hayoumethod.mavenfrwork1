@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hayoumethod]">
+  <parameter name="rownum" value="1"/>
+  <parameter name="TestDataPath1" value="TestData/login/Login.xlsx"/>
+  <parameter name="TDSheetName1" value="Login_Page"/>
+  <parameter name="URL" value="http://www.hayoumethod.com/"/>
+  <parameter name="Browser" value="FF"/>
+  <test thread-count="5" name="Hayoumethod_login(failed)">
+    <classes>
+      <class name="com.hayoumethod.framework.tests.account.LoginPageTest">
+        <methods>
+          <include name="validateLoginProcess"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.hayoumethod.framework.tests.account.LoginPageTest -->
+    </classes>
+  </test> <!-- Hayoumethod_login(failed) -->
+</suite> <!-- Failed suite [Hayoumethod] -->

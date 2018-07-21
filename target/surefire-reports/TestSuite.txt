@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 82.39 s <<< FAILURE! - in TestSuite
+validateLoginProcess(com.hayoumethod.framework.tests.account.LoginPageTest)  Time elapsed: 23.408 s  <<< FAILURE!
+java.lang.AssertionError: expected [My Dashboard] but found [My account]
+	at com.hayoumethod.framework.tests.account.LoginPageTest.validateLoginProcess(LoginPageTest.java:65)
+
