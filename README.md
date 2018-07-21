@@ -1,3 +1,3 @@
 # com.hayoumethod.mavenfrwork1
 HayoumethodProject
-MavenFramework
+MavenFramework update
