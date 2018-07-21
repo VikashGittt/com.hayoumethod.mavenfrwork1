@@ -57,7 +57,7 @@ public class LoginPageTest extends UI_GenericMethods1 {
 			System.out.println("login done using data from test data sheet");
 			String actualTitle = AccountDashboard.PageTitle.getText();
 			System.out.println("actualTitle = "+actualTitle);
-	    	String expectedTitle = "My Dashboard";
+	    	String expectedTitle = "My account";
 	    	System.out.println("Login process validation done");
 	    	String elementName = "DashboardPageTitle";
 	    	
